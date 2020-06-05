@@ -36,7 +36,7 @@ var wizards = [
     eyesColor: WIZARD_EYES[getRandomInt(WIZARD_EYES.length - 1)]
   },
   {
-    name: WIZARD_NAMES[getRandomInt(WIZARD_NAMES.length - 1)] + " " +  WIZARD_LASTNAME[getRandomInt(3)],
+    name: WIZARD_NAMES[getRandomInt(WIZARD_NAMES.length - 1)] + " " +  WIZARD_LASTNAME[getRandomInt(WIZARD_LASTNAME.length - 1)],
     coatColor: WIZARD_COAT[getRandomInt(WIZARD_COAT.length - 1)],
     eyesColor: WIZARD_EYES[getRandomInt(WIZARD_EYES.length - 1)]
   }
